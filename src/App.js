@@ -34,6 +34,7 @@ class App extends React.Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
+        <Typography color="secondaryText" gutterBottom>Data from https://covid19.mathdro.id/api </Typography>
       </div>
     )
   }
